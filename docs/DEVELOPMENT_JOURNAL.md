@@ -7,4 +7,9 @@ The interim goal of this project is to display an interactive live map of BESS c
 The SEMO data query function in irish-electricity-data seems to only get 1 month of SEMO data - not ideal
 However, it outputs the data in a very user friendly way, we'll see if SEMO_Report_Download can match that, there might be oppportunity to use both.
 
+14/11/26
+- What size BESS assets do the the PN dataset and the Unit Register dataset show?
+I would imagine its participant (need to check what level of capacity this means) for the unit register set, as they all seemed to have PU_IDs. On the PN set, I haven't checked yet, although I would imagine there has to be a cutoff,as I doubt SEMO would have visibility of small storage units. 
 
+- I need to get more recent Unit register data, at the moment the most recent is from August '26
+It might be possible to get more recent using one of the queries
